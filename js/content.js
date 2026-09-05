@@ -6,8 +6,8 @@ import { round, score } from './score.js';
 const dir = './data';
 
 export async function fetchList() {
-    const listResult = await fetch(`${dir}/_list.json`);
     try {
+        const listResult = await fetch(`${dir}/_list.json`);
         const list = await listResult.json();
         return await Promise.all(
             list.map(async (path, rank) => {
@@ -24,14 +24,14 @@ export async function fetchList() {
                         },
                         null,
                     ];
-                } catch {
-                    console.error(`Failed to load level #${rank + 1} ${path}.`);
+                } catch (e) {
+                    console.error(`Failed to load level #${rank + 1} ${path}.`, e);
                     return [null, path];
                 }
             }),
         );
-    } catch {
-        console.error(`Failed to load list.`);
+    } catch (e) {
+        console.error(`Failed to load list.`, e);
         return null;
     }
 }
