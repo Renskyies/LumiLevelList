@@ -98,25 +98,37 @@ export default {
                             </li>
                         </ol>
                     </template>
-                    <h3>Submission Requirements</h3>
+                    <h3>Record Submission Requirements</h3>
                     <p>
                         Achieved the record without using hacks (however, FPS bypass is allowed, up to 360fps)
                     </p>
                     <p>
-                        Achieved the record on the level that is listed on the site - please check the level ID before you submit a record
+                        Achieved the record on the level that is listed on the site
                     </p>
                     <p>
                         Send a screenshot/recording of the completion on the formulary
                     </p>
                     <p>
-                        Do not use secret routes or bug routes
+                        Do NOT use secret routes or bug routes
                     </p>
                     <p>
                         Do not use easy modes, only a record of the unmodified level qualifies
                     </p>
                     <p>
-                        Once a level falls onto the Legacy List, we accept records for it for 24 hours after it falls off, then afterwards we never accept records for said level
+                        Once a level falls onto the Legacy List, record will be accepted for 24 hours after it falls off the list, then afterwards we never accept records for said level
                     </p>
+                    
+                    <h3>Level Submission Requirements</h3>
+                     <p>
+                        Levels MUST be verified legitimately. No copied or stolen verifications
+                    </p>
+                    <p>
+                         Layouts are accepted, but low-effort levels will NOT be accepted on the list
+                    </p>
+                    <p>
+                        Levels CANNOT have any deco or gameplay directly copied from another level in any way without direct permission from the original creator
+                    </p>
+                    
                 </div>
             </div>
         </main>
