@@ -44,7 +44,7 @@ header {
 @media screen and (min-width: 1366px) {
     header {
         display: grid;
-        padding-inline: 0;
+        padding-inline: 0 2rem;
     }
     header .nav {
         grid-column: 2 / -1;
