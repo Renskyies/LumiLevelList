@@ -1,1 +1,1 @@
-based on the shitty list idk
+An accessible list where EVERYONE can submit their own levels to the list!
