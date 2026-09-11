@@ -46,6 +46,9 @@ header {
         display: grid;
         padding-inline: 0;
     }
+    header .nav {
+        grid-column: 2 / -1;
+    }
 }
 header .logo {
     justify-self: end;
